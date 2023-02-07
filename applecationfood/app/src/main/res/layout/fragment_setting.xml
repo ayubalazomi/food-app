@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settingnav"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setting">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RadioGroup
+        android:layout_width="411dp"
+        android:layout_height="551dp">
+
+        <RadioButton
+            android:id="@+id/large"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginTop="80dp"
+            android:text="large"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/madiam"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:layout_marginTop="80dp"
+            android:text="mediam"
+            android:textSize="21sp" />
+
+        <RadioButton
+            android:id="@+id/small"
+            android:layout_width="404dp"
+            android:layout_height="79dp"
+            android:layout_marginTop="120dp"
+            android:text="small"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="198dp"
+        android:layout_height="78dp"
+        android:text="save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/large"
+        app:layout_constraintVertical_bias="0.986" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="189dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="4dp"
+        android:text="nightmode"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.011"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
